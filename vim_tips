@@ -1,0 +1,12 @@
+" Installing plugins manually without plugin manager
+mkdir -p ~/.vim/pack/plugins/start
+
+" For windows create vimfiles\pack\plugins\start (usually C:\Users\<username>)
+" Then create pack\plugins\start folders inside of it.
+
+" Load documentation automatically
+packloadall           " Load all plugins.
+silent! helptags ALL  " Load help files for all plugins.
+
+" To add plugin
+$ git clone https://github.com/preservim/nerdtree.git    ~/.vim/pack/plugins/start/nerdtree
