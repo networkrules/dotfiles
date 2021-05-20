@@ -85,6 +85,9 @@ endif
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
+Plug 'sainnhe/sonokai'
+Plug 'sheerun/vim-polyglot'
+
 
 call plug#end()
 
